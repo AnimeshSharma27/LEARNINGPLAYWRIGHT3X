@@ -7,7 +7,7 @@ let score = [4,3,2];
 console.log(score.sort());
 
 let nums = [10,1,21,2];
-// nums.sort();
+ nums.sort();
 console.log(nums); //  1,2,10,21 -
 // Natural Sorting - Lexicographic / string sort 
 

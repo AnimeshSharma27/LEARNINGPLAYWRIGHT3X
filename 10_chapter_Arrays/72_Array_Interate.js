@@ -18,6 +18,8 @@ tests.forEach((test, index) => {
     console.log(`${index}: ${test}`);
 });
 
+console.log("----");
+
 // entries() — index + value
 
 for (let [i, test] of tests.entries()) {
