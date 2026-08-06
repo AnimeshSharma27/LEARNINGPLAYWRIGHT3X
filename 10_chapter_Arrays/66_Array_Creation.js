@@ -18,3 +18,4 @@ console.log(test.length);
 // Array.from()
 let chars = Array.from("hello");
 // ["h", "e", "l", "l", "o"]
+console.log(chars)
