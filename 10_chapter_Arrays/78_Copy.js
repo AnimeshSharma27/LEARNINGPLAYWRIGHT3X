@@ -15,6 +15,7 @@ let copy3 = Array.from(original);
 let copy4 = original.concat();
 // console.log(copy4);
 
+//Shallow copy - if you add to copy of array element only added to copy not original.
 console.log(" ---- ");
 copy1.push(99);
 console.log(original);
