@@ -1,3 +1,4 @@
+
 // Scope in Functions
 
 let env = "staging";  // global scope
