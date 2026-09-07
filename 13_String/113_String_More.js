@@ -5,14 +5,14 @@ console.log(str.toLowerCase());
 // Trim whitespace
 console.log(str.trim());
 
-str.trimStart();
-str.trimEnd();
+console.log(str.trimStart());
+console.log(str.trimEnd());
 
 // Replace
 let msg = "Test: FAIL. Retry: FAIL.";
-msg.replace("FAIL", "PASS"); // // "Test: PASS. Retry: FAIL."  (first only)
-msg.replaceAll("FAIL", "PASS");
-msg.replace(/FAIL/g, "PASS"); // replace all with Regex
+console.log(msg.replace("FAIL", "PASS")); // // "Test: PASS. Retry: FAIL."  (first only)
+console.log(msg.replaceAll("FAIL", "PASS"));
+console.log(msg.replace(/FAIL/g, "PASS")); // replace all with Regex
 
 
 // Concatenation
